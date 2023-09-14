@@ -1,0 +1,94 @@
+.pub-date {
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    line-height: 1;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(rgba(111, 53, 164, 0.05)),
+            to(rgba(234, 106, 44, 0.05)));
+    background: linear-gradient(rgba(111, 53, 164, 0.05) 0,
+            rgba(234, 106, 44, 0.05) 100%);
+}
+
+.pub-date span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left,
+            #6f35a4,
+            rgb(0, 125, 255));
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 12;
+    height: 100vh;
+    background: #0000005e;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-blur {
+    background: #fff !important;
+}
+
+h2.article-title.prod-sans-reg {
+    /* min-height: 66px;
+    max-height: 66px; */
+    margin-bottom: 10px
+}
+
+.article-text.prod-sans-light.fs-14 {
+    min-height: 100px;
+    max-height: 100px;
+
+}
+
+.article-listing-item a .article-content h2 {
+    font-size: 20px;
+    line-height: 1.1;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.article-listing-item .img-container .img-article {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
+    transform: translate(0);
+    width: 100% !important;
+    height: 100%;
+}
+
+.filter-item:not(.active) {
+    color: #495057 !important;
+    background-color: #fff;
+}
+
+.titre-popup {
+    color: rgb(0, 125, 255);
+}
